@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+    <title>Frontend-test</title>
+</head>
+<body class="body">
+
+    <section class="pantone-colors">
+        <div class="container">
+            <div class="header">
+                <h2 class="header__title">Pantone colors</h2>
+                <button class="header__reset"><img src="<%=require('./images/Icon.svg')%>" alt="Кнопка сброса таблицы" class="header__img">Reset</button>
+            </div>
+            <div class="colors">
+                <ul class="colors__fields">
+                    <li class="colors__item">
+                        <label class="colors__label">
+                            <input type="checkbox" class="colors__checkbox colors__id" checked>
+                            id
+                        </label>
+                    </li>
+                    <li class="colors__item">
+                        <label class="colors__label">
+                            <input type="checkbox" class="colors__checkbox colors__name" checked>
+                            name
+                        </label>
+                    </li>
+                    <li class="colors__item">
+                        <label class="colors__label">
+                            <input type="checkbox" class="colors__checkbox colors__year" checked>
+                            year
+                        </label>
+                    </li>
+                    <li class="colors__item">
+                        <label class="colors__label">
+                            <input type="checkbox" class="colors__checkbox colors__color" checked>
+                            color
+                        </label>
+                    </li>
+                    <li class="colors__item">
+                        <label class="colors__label">
+                            <input type="checkbox" class="colors__checkbox colors__pantone-value" checked>
+                            pantone value
+                        </label>
+                    </li>                 
+                </ul>
+                <div class="colors-table">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>
