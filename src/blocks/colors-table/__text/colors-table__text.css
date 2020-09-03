@@ -1,0 +1,38 @@
+.colors-table__text{
+    width: max-content;
+    margin: 0;
+    padding: 17px 50px 17px 0;
+    align-self: center;
+}
+
+.colors-table__text:first-child{
+    text-align: end;
+    width: 35px;
+    border-left: none;
+    padding-right: 20px;
+}
+
+.colors-table__text:nth-child(2){
+    width: 120px;
+    border-left: none;
+    padding-right: calc(130px - 50px);
+}
+
+.colors-table__text:nth-child(3){
+    text-align: end;
+    width: 45px;
+    border-left: none;
+    padding-right: 20px;
+}
+
+.colors-table__text:nth-child(4){
+    width: 73px;
+    border-left: none;
+    padding-right: 60px;
+}
+
+.colors-table__text:last-child{
+    width: 126px;
+    border-left: none;
+    padding-right: 0;
+}

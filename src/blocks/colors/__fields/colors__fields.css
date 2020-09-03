@@ -1,0 +1,9 @@
+.colors__fields{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.384);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+    padding: 0 25px;
+    margin: 16px 0 8px 0;
+}

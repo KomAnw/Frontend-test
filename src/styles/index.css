@@ -1,0 +1,12 @@
+@import url(../blocks/pantone-colors/pantone-colors.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/colors/colors.css);
+@import url(../blocks/colors-table/colors-table.css);
+@import url(../blocks/header/__reset/_active/header__reset_active.css);
+
+.body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background: #E5E5E5;
+}

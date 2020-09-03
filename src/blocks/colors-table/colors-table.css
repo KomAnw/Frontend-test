@@ -1,0 +1,9 @@
+@import url(./__data/colors-table__data.css);
+@import url(./__text/colors-table__text.css);
+@import url(./__container/colors-table__container.css);
+@import url(./__img/colors-table__img.css);
+@import url(./__value/colors-table__value.css);
+
+.colors-table{
+    display: grid;
+}
